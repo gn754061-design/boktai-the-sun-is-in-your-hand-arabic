@@ -1,0 +1,16 @@
+# Strictly exclude copyrighted ROMs, saves, and temporary build artifacts
+*.gba
+*.gb
+*.gbc
+*.nds
+*.rom
+*.sav
+*.ss*
+*.zip
+*.7z
+*.tmp
+*.bak
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

@@ -1,0 +1,238 @@
+{
+  "characters": [
+    {
+      "en": "Django",
+      "ar": "جانغو",
+      "limit_chars": 8,
+      "desc": "Solar Boy, protagonist"
+    },
+    {
+      "en": "Master Otenko",
+      "ar": "المعلم أوتينكو",
+      "limit_chars": 16,
+      "desc": "Sun messenger guide"
+    },
+    {
+      "en": "Otenko",
+      "ar": "أوتينكو",
+      "limit_chars": 8,
+      "desc": "Short name"
+    },
+    {
+      "en": "Sabata",
+      "ar": "ساباتا",
+      "limit_chars": 8,
+      "desc": "Dark Boy, rival"
+    },
+    {
+      "en": "Lita",
+      "ar": "ليتا",
+      "limit_chars": 8,
+      "desc": "Earthly Maiden"
+    },
+    {
+      "en": "Ringo",
+      "ar": "رينغو",
+      "limit_chars": 8,
+      "desc": "Django's father"
+    },
+    {
+      "en": "The Count",
+      "ar": "الكونت",
+      "limit_chars": 10,
+      "desc": "Vampire Lord of Fog Castle"
+    },
+    {
+      "en": "Carmilla",
+      "ar": "كارميلا",
+      "limit_chars": 10,
+      "desc": "Queen of the Moon"
+    },
+    {
+      "en": "Garm",
+      "ar": "غارم",
+      "limit_chars": 8,
+      "desc": "Wolf Immortal"
+    },
+    {
+      "en": "Hel",
+      "ar": "هيل",
+      "limit_chars": 6,
+      "desc": "Final boss"
+    }
+  ],
+  "equipment": [
+    {
+      "en": "Gun Del Sol",
+      "ar": "بندقية الشمس",
+      "limit_chars": 14,
+      "desc": "Main solar weapon"
+    },
+    {
+      "en": "Solar Gun",
+      "ar": "بندقية الشمس",
+      "limit_chars": 14,
+      "desc": "Common name"
+    },
+    {
+      "en": "Solar Station",
+      "ar": "محطة الشمس",
+      "limit_chars": 12,
+      "desc": "Energy recharge point"
+    },
+    {
+      "en": "Solar Sensor",
+      "ar": "حساس الشمس",
+      "limit_chars": 12,
+      "desc": "Cartridge hardware sensor"
+    },
+    {
+      "en": "Solar Gauge",
+      "ar": "مؤشر الشمس",
+      "limit_chars": 12,
+      "desc": "Sunlight meter"
+    },
+    {
+      "en": "Pile Driver",
+      "ar": "وتد التطهير",
+      "limit_chars": 12,
+      "desc": "Vampire purification device"
+    },
+    {
+      "en": "Solar Tree",
+      "ar": "شجرة الشمس",
+      "limit_chars": 12,
+      "desc": "Mother Gaias sacred tree"
+    },
+    {
+      "en": "Coffin",
+      "ar": "التابوت",
+      "limit_chars": 8,
+      "desc": "Vampire coffin"
+    },
+    {
+      "en": "Knight",
+      "ar": "فارس",
+      "limit_chars": 8,
+      "desc": "Gun frame"
+    },
+    {
+      "en": "Guardian",
+      "ar": "الحارس",
+      "limit_chars": 8,
+      "desc": "Gun frame"
+    }
+  ],
+  "gameplay_concepts": [
+    {
+      "en": "Immortal",
+      "ar": "الخالد",
+      "limit_chars": 8,
+      "desc": "Vampire lords"
+    },
+    {
+      "en": "Immortals",
+      "ar": "الخالدون",
+      "limit_chars": 10,
+      "desc": "Plural"
+    },
+    {
+      "en": "Undead",
+      "ar": "الموتى الأحياء",
+      "limit_chars": 14,
+      "desc": "Ghouls and zombies"
+    },
+    {
+      "en": "Dark Loan",
+      "ar": "القرض المظلم",
+      "limit_chars": 12,
+      "desc": "Bank in Sol City"
+    },
+    {
+      "en": "Sol City",
+      "ar": "مدينة الشمس",
+      "limit_chars": 12,
+      "desc": "Main town"
+    }
+  ],
+  "ui_terms": [
+    {
+      "en": "GAME START",
+      "ar": "بدء اللعبة",
+      "limit_chars": 12,
+      "desc": "Title menu"
+    },
+    {
+      "en": "CONTINUE",
+      "ar": "متابعة",
+      "limit_chars": 10,
+      "desc": "Title menu"
+    },
+    {
+      "en": "NEW GAME",
+      "ar": "لعبة جديدة",
+      "limit_chars": 12,
+      "desc": "File select"
+    },
+    {
+      "en": "START",
+      "ar": "ابدأ",
+      "limit_chars": 6,
+      "desc": "Button / action"
+    },
+    {
+      "en": "DELETE",
+      "ar": "حذف",
+      "limit_chars": 6,
+      "desc": "Save delete"
+    },
+    {
+      "en": "OK",
+      "ar": "موافق",
+      "limit_chars": 6,
+      "desc": "Confirm"
+    },
+    {
+      "en": "BACK",
+      "ar": "رجوع",
+      "limit_chars": 6,
+      "desc": "Cancel"
+    },
+    {
+      "en": "EASY",
+      "ar": "سهل",
+      "limit_chars": 6,
+      "desc": "Difficulty"
+    },
+    {
+      "en": "NORMAL",
+      "ar": "عادي",
+      "limit_chars": 6,
+      "desc": "Difficulty"
+    },
+    {
+      "en": "HARD",
+      "ar": "صعب",
+      "limit_chars": 6,
+      "desc": "Difficulty"
+    },
+    {
+      "en": "TIME SETTING",
+      "ar": "ضبط الوقت",
+      "limit_chars": 12,
+      "desc": "Setup"
+    },
+    {
+      "en": "DAYLIGHT SAVINGS",
+      "ar": "التوقيت الصيفي",
+      "limit_chars": 16,
+      "desc": "Setup"
+    },
+    {
+      "en": "SOLAR SENSOR SETTING",
+      "ar": "ضبط حساس الشمس",
+      "limit_chars": 16,
+      "desc": "Setup"
+    }
+  ]
+}

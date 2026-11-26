@@ -1,0 +1,79 @@
+==================================================
+Boktai: The Sun Is in Your Hand — Arabic Edition
+Build Info & Release Verification
+==================================================
+Build Date : 2026-11-14 21:18:00
+Release    : 1.0 (2026-11-14)
+Platform   : Game Boy Advance (ARM7TDMI)
+Game Code  : U3IE
+Target     : Boktai - The Sun Is in Your Hand (USA)
+
+--------------------------------------------------
+1) Source (clean, unmodified) ROM — REQUIRED
+--------------------------------------------------
+File Name : Boktai - The Sun Is in Your Hand (USA).gba
+File Size : 16,777,216 bytes (16.0 MB)
+CRC32     : E715AC45
+MD5       : FF75C62AB690410CC8FCA24204D783E9
+SHA-1     : 7164326283DF46A3941EC7B6CECA889CBC40E660
+SHA-256   : AAD4EAF0B3AB9F80FFB3A5346D6607B2E2EA12F8E5F3851D2EDD1306A4F7A8CD
+
+NOTE: The source ROM is NOT included in this release.
+      You must dump it yourself from a legally owned copy.
+
+--------------------------------------------------
+2) Patched (Arabic) ROM — OUTPUT AFTER PATCHING
+--------------------------------------------------
+File Name : Boktai - The Sun Is in Your Hand (Arabic).gba
+File Size : 16,777,216 bytes (16.0 MB)
+CRC32     : 261340EC
+MD5       : E274159DD487696BD2696B0F8A3A4845
+SHA-1     : 9D3C2BF295A68479E6714CD37036958BD0C37B3A
+SHA-256   : 325C04D2E5C6C82E65DED469D4CC0A1F14E1D12CF9FDFB402CC2D425784F2C68
+
+NOTE: The patched ROM is NOT included in this release.
+      Do not redistribute it (contains original game data).
+
+--------------------------------------------------
+3) Distribution Patches
+--------------------------------------------------
+boktai_arabic.ips
+  Size    : 214,822 bytes
+  CRC32   : 8B8EC6BD
+  MD5     : F350F3FB4905CDDBE531989F6B0FBCB1
+  SHA-1   : BAD2BC216494DDF2F5785A039E1085319DBD1C44
+  SHA-256 : AE40A188177A2FDD498AA4E1B3F458000BFC69D409FB1F193905238E71CE7348
+  Records : 9,569 IPS records
+  Verified: Applying to the clean source ROM reproduces the
+            patched ROM byte-for-byte (CRC32 261340EC).
+
+boktai_arabic.bps
+  Size    : 199,050 bytes
+  CRC32   : F8CB6FC2
+  MD5     : 44CA6EB39B1DD2382BE42BB1FF67D9FF
+  SHA-1   : 6ED8222855690B0E7D79D643C74D8717C4B8A58C
+  SHA-256 : A91AEB2D2C2264933A4C20F544449FFB4940CB711E58CD1234B78EF239B02
+  Footer  : source=CRC32 E715AC45, target=CRC32 261340EC
+  Verified: Applying to the clean source ROM reproduces the
+            patched ROM byte-for-byte (CRC32 261340EC).
+
+--------------------------------------------------
+4) Verification Status
+--------------------------------------------------
+- Source ROM hash verified ........................ PASS
+- IPS applies to source and matches output ........ PASS
+- BPS applies to source and matches output ........ PASS
+- Output SHA-1 matches expected ................... PASS
+- Original source ROM left untouched .............. PASS
+
+--------------------------------------------------
+5) Build Scripts (for reproducibility)
+--------------------------------------------------
+- scripts/build_arabic_system.py   (font + RTL engine patch)
+- scripts/build_full_translations.py (text injection)
+- scripts/create_patch.py          (patch generation)
+- scripts/roundtrip.py             (byte-identical round-trip gate)
+
+==================================================
+End of build info
+==================================================
